@@ -1,0 +1,57 @@
+h1 {
+	color: cyan;
+}
+
+body {
+	font-family:"lucida console";
+}
+
+ul {
+	color: purple;
+	background-color: pink;
+}
+
+p {
+	text-align: center;
+}
+
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-7/nat619.cur), progress !important;} /* End http://www.cursors-4u.com */
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     width: 200px;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto; 
+}
+
+#nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#nav li a {
+    display: block;
+    width: 60px;
+     color: #000;
+     padding: 8px 16px;
+    text-decoration: none;
+}
+
+#nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#move {
+	margin-left: 155px;
+}
+
