@@ -8,6 +8,11 @@ body {
     font-family: 'Passion One', cursive;
 }
 
+#psmall{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
 p {
 	font-size: 20px;
 	font-family: 'Dekko', cursive;
@@ -24,41 +29,31 @@ img {
 	display: block;
 }
 
-#nav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-     width: 200px;
-    background-color: #f1f1f1;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 10%;
-    background-color: #f1f1f1;
-    height: 100%; 
-    position: fixed; 
-    overflow: auto; 
+    overflow: hidden;
+    background-color: #696969;
 }
 
-#nav li a:hover {
-    background-color: #555;
-    color: white;
+li {
+    float: left;
 }
 
-#nav li a {
+li a {
     display: block;
-    width: 60px;
-     color: #000;
-     padding: 8px 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-#nav li a.active {
-    background-color: #4CAF50;
-    color: white;
+li a:hover {
+    background-color: #00FFFF;
 }
 
-#move {
-	margin-left: 155px;
-}
+
+/* Start http://www.cursors-4u.com */ .p1, a:hover {cursor: url(http://ani.cursors-4u.net/movie/mov-2/mov157.cur), progress !important;} /* End http://www.cursors-4u.com */
+
 
