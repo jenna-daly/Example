@@ -1,20 +1,36 @@
 h1 {
 	color: cyan;
+    background-color: grey;
+    display: inline-block;
 }
 
-body {
-	font-family:"lucida console";
+#move {
+	font-family: 'Shadows Into Light', cursive;
+
 }
 
 ul {
 	color: purple;
 	background-color: pink;
+    display: inline-block;
+    margin-left: 280px;
 }
 
 p {
-	text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 440px;
 }
 
+#p1{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 540px;
+}
 /* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-7/nat619.cur), progress !important;} /* End http://www.cursors-4u.com */
 
 #nav {
@@ -53,5 +69,10 @@ p {
 
 #move {
 	margin-left: 155px;
+}
+
+body {
+    background-image: url("http://wallpapercave.com/wp/fvfe71Z.jpg");
+    background-size: cover;
 }
 
