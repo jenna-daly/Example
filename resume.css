@@ -1,16 +1,16 @@
 body {
 	background-color: lightcyan;
-	float: right;
+
 }
 
 #p {
-
     font-family: 'Passion One', cursive;
+    margin-left: 650px;
 }
 
 #psmall{
     font-family: 'Indie Flower', cursive;
-    
+    margin-left: 615px;
 }
 
 p {
@@ -31,9 +31,18 @@ img {
 
 #img2{
     float: left;
-    margin-left: 350px;
+    margin-left: 300px;
     height: 120px;
     width: 150px;
+    border-radius: 8px;
+}
+
+#img3{
+    float: right;
+    height: 120px;
+    width: 250px;
+    border-radius: 8px;
+    margin-right: 200px;
 }
 
 ul {
